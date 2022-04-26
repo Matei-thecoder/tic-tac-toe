@@ -35,7 +35,7 @@ function move(id)
                     bool[i]=3;
                 }
                 let buton=document.getElementById("reset");
-                buton.innerHTML="RESETEA-ZA";
+                buton.innerHTML="RESETEAZA";
                 buton.style.color="white";
                 buton.style.backgroundColor="#6b18d9";
                 
@@ -60,7 +60,7 @@ function move(id)
                     bool[i]=3;
                 }
                 let buton=document.getElementById("reset");
-                buton.innerHTML="RESETEA-ZA";
+                buton.innerHTML="RESETEAZA";
                 buton.style.color="white";
                 buton.style.backgroundColor="#6b18d9";
                 
@@ -79,7 +79,7 @@ function move(id)
              bool[i]=3;
         }
         let buton=document.getElementById("reset");
-        buton.innerHTML="RESETEA-ZA";
+        buton.innerHTML="RESETEAZA";
         buton.style.color="white";
         buton.style.backgroundColor="#6b18d9";
     }
