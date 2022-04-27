@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE GAME</title>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <p ><a id="gb" href="index.html">GO BACK</a></p>
+        <div id="l-header">
+            <h1 id="title">TIC TAC TOE</h1>
+        </div>
+        
+
+    </div>
+    <div class="content">
+        <div class="game">
+            <table>
+                <tr id="r1">
+                    <th ><button class="button" id="1" onclick="move('1')">M</button></th>
+                    <th ><button class="button" id="2" onclick="move('2')">M</button></th>
+                    <th ><button class="button" id="3" onclick="move('3')">M</button></th>
+                </tr>
+                <tr id="r2">
+                    <th ><button class="button" id="4" onclick="move('4')">M</button></th>
+                    <th ><button class="button" id="5" onclick="move('5')">M</button></th>
+                    <th ><button class="button" id="6" onclick="move('6')">M</button></th>
+                </tr>
+                <tr id="r3">
+                    <th ><button class="button" id="7" onclick="move('7')">M</button></th>
+                    <th ><button class="button" id="8" onclick="move('8')">M</button></th>
+                    <th ><button class="button" id="9" onclick="move('9')">M</button></th>
+                </tr>
+            </table>
+            <p id="player">Jucator 1</p>
+            <p id="winner"></p>
+            <button id="reset" onclick="reset()"></button>
+        </div>
+        
+        <div class="contacts">
+            <p id="mv">Made by VESEL MATEI</p>
+            <div id="contacts">
+                <a href="https://github.com/Matei-thecoder"><img src="github.jpg" alt="github logo" id="github"></a>
+                <a href="https://www.instagram.com/veselmatei/"><img src="instagram.jpg" alt="instagram logo" id="instagram"></a>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
